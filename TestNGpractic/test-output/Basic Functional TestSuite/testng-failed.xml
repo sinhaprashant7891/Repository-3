@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Basic Functional TestSuite]">
+  <test name="Basic tests(failed)">
+    <classes>
+      <class name="abcd.File2">
+        <methods>
+          <include name="signup1"/>
+        </methods>
+      </class> <!-- abcd.File2 -->
+    </classes>
+  </test> <!-- Basic tests(failed) -->
+</suite> <!-- Failed suite [Basic Functional TestSuite] -->
